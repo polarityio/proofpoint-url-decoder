@@ -1,0 +1,6 @@
+{
+  "main": "./integration.js",
+  "name": "ppurl",
+  "version": "3.0.0",
+  "private": true
+}
