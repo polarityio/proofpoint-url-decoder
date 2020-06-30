@@ -1,0 +1,14 @@
+{{#each details.urls as | url index |}}
+  {{#if (gt index 0)}}
+    <hr>
+  {{/if}}
+  <h1 class="p-title">{{fa-icon "info" fixedWidth=true}} Info</h1>
+  <div>
+    <span class="p-key">Decoded URL:</span>
+    <div class="p-value url-container">{{url.decodedUrl}}</div>
+  </div>
+  <div class="mt-2">
+    <span class="p-key">Encoded URL:</span>
+    <div class="p-value url-container">{{url.encodedUrl}}</div>
+  </div>
+{{/each}}
