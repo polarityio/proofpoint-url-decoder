@@ -26,7 +26,7 @@ module.exports = {
   customTypes: [
     {
       key: 'ppUrl',
-      regex: /https:\/\/urldefense.proofpoint.com\S*/
+      regex: /http(s?):\/\/urldefense.*com\S*/
     }
   ],
   onDemandOnly: true,
