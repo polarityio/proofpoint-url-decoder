@@ -1,7 +1,7 @@
 {
-  "main": "./integration.js",
   "name": "ppurl",
-  "version": "3.0.2",
+  "version": "3.0.3",
+  "main": "./integration.js",
   "private": true,
   "dependencies": {
     "request": "^2.88.2",
