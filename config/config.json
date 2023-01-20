@@ -8,10 +8,9 @@
       "regex": "http(s?):\\/\\/urldefense.*com\\S*"
     }
   ],
+  "defaultColor": "light-gray",
   "onDemandOnly": true,
-  "styles": [
-    "./styles/pp.less"
-  ],
+  "styles": ["./styles/pp.less"],
   "block": {
     "component": {
       "file": "./components/pp-block.js"
