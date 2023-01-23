@@ -1,0 +1,45 @@
+{
+  "name": "Proofpoint URL Decoder",
+  "acronym": "PPURL",
+  "description": "Decode URLs which have been rewritten by TAP to their original, target URL",
+  "customTypes": [
+    {
+      "key": "ppUrl",
+      "regex": "http(s?):\\/\\/urldefense.*com\\S*"
+    }
+  ],
+  "defaultColor": "light-gray",
+  "onDemandOnly": true,
+  "styles": ["./styles/pp.less"],
+  "block": {
+    "component": {
+      "file": "./components/pp-block.js"
+    },
+    "template": {
+      "file": "./templates/pp-block.hbs"
+    }
+  },
+  "request": {
+    "cert": "",
+    "key": "",
+    "passphrase": "",
+    "ca": "",
+    "proxy": "",
+    "rejectUnauthorized": true
+  },
+  "logging": {
+    "level": "info"
+  },
+  "options": [
+    {
+      "key": "host",
+      "name": "Proofpoint URL Decoder API Host",
+      "description": "The base URL for the Proofpoint URL Decoder API which should include the schema (i.e., https://)",
+      "default": "https://tap-api-v2.proofpoint.com",
+      "type": "text",
+      "userCanEdit": false,
+      "adminOnly": true
+    }
+  ],
+  "entityTypes": []
+}

@@ -29,6 +29,7 @@ module.exports = {
       regex: /http(s?):\/\/urldefense.*com\S*/
     }
   ],
+  defaultColor: 'light-gray',
   onDemandOnly: true,
   /**
    * An array of style files (css or less) that will be included for your integration. Any styles specified in
